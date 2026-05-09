@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="40" viewBox="0 0 500 40">
+  <text x="10" y="25" font-family="Arial, sans-serif" font-size="12" fill="#999">The Economic Times</text>
+  <text x="160" y="25" font-family="Arial, sans-serif" font-size="12" fill="#999">Forbes</text>
+  <text x="240" y="25" font-family="Arial, sans-serif" font-size="12" fill="#999">Mint</text>
+  <text x="300" y="25" font-family="Arial, sans-serif" font-size="12" fill="#999">Business Standard</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="30" viewBox="0 0 120 30">
+  <rect width="120" height="30" fill="#f8f9fa" rx="4"/>
+  <rect x="5" y="5" width="20" height="20" fill="#387ed1" rx="3"/>
+  <text x="15" y="19" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">sc</text>
+  <text x="72" y="19" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">smallcase</text>
+</svg>

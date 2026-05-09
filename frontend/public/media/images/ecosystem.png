@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="400" viewBox="0 0 450 400">
+  <rect width="450" height="400" fill="#f8f9fa" rx="8"/>
+  <!-- Central hub -->
+  <circle cx="225" cy="200" r="40" fill="#387ed1" opacity="0.9"/>
+  <text x="225" y="205" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="bold">Zerodha</text>
+  <!-- Satellite apps -->
+  <circle cx="100" cy="100" r="30" fill="#e95325" opacity="0.7"/>
+  <text x="100" y="105" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">Kite</text>
+  <circle cx="350" cy="100" r="30" fill="#4caf50" opacity="0.7"/>
+  <text x="350" y="105" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">Coin</text>
+  <circle cx="100" cy="300" r="30" fill="#9c27b0" opacity="0.7"/>
+  <text x="100" y="305" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">Console</text>
+  <circle cx="350" cy="300" r="30" fill="#ff9800" opacity="0.7"/>
+  <text x="350" y="305" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">Varsity</text>
+  <!-- Connection lines -->
+  <line x1="130" y1="120" x2="190" y2="180" stroke="#ddd" stroke-width="2"/>
+  <line x1="320" y1="120" x2="260" y2="180" stroke="#ddd" stroke-width="2"/>
+  <line x1="130" y1="280" x2="190" y2="220" stroke="#ddd" stroke-width="2"/>
+  <line x1="320" y1="280" x2="260" y2="220" stroke="#ddd" stroke-width="2"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="350" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#f0f4f8" rx="8"/>
+  <rect x="30" y="30" width="440" height="290" fill="white" rx="6" stroke="#ddd" stroke-width="1"/>
+  <rect x="30" y="30" width="440" height="30" fill="#333" rx="6"/>
+  <circle cx="50" cy="45" r="5" fill="#ff5f56"/>
+  <circle cx="68" cy="45" r="5" fill="#ffbd2e"/>
+  <circle cx="86" cy="45" r="5" fill="#27c93f"/>
+  <!-- Code lines -->
+  <text x="60" y="90" font-family="Courier, monospace" font-size="11" fill="#387ed1">const</text>
+  <text x="100" y="90" font-family="Courier, monospace" font-size="11" fill="#333"> kite = </text>
+  <text x="168" y="90" font-family="Courier, monospace" font-size="11" fill="#e95325">new</text>
+  <text x="195" y="90" font-family="Courier, monospace" font-size="11" fill="#4caf50"> KiteConnect()</text>
+  <rect x="60" y="100" width="300" height="1" fill="#eee"/>
+  <text x="250" y="180" font-family="Arial, sans-serif" font-size="18" fill="#333" text-anchor="middle" font-weight="bold">Kite Connect API</text>
+  <text x="250" y="200" font-family="Arial, sans-serif" font-size="11" fill="#999" text-anchor="middle">Build trading platforms with APIs</text>
+</svg>
