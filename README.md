@@ -6,11 +6,20 @@ A full-stack clone of [Zerodha](https://zerodha.com), India's largest stock brok
 
 ## 🖼️ Screenshots
 
-### Landing Page
+### 🌐 Landing Page
 > Homepage with hero section, pricing, awards, and call-to-action signup.
 
-### Trading Dashboard
-> Real-time watchlist, holdings, positions, funds, and order placement.
+![Landing Page](screenshots/landing-page.png)
+
+### 📊 Trading Dashboard
+> Real-time watchlist with live stock prices, buy/sell actions, and account summary.
+
+![Dashboard - Main View](screenshots/dashboard-main.png)
+
+### 📈 Holdings View
+> Portfolio holdings with 13 stocks, P&L tracking, net change, and bar chart visualization.
+
+![Dashboard - Holdings](screenshots/dashboard-holdings.png)
 
 ---
 
