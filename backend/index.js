@@ -258,14 +258,20 @@ app.get("/", (req, res) => {
   });
 });
 
-app.listen(PORT, () => {
-  console.log("App started on port " + PORT);
-  if (useInMemory) {
-    console.log("⚡ Running in IN-MEMORY mode (no MongoDB required)");
-    console.log("   Holdings: " + inMemoryHoldings.length + " items loaded");
-    console.log("   Positions: " + inMemoryPositions.length + " items loaded");
-  } else {
-    mongoose.connect(uri);
-    console.log("DB connected!");
-  }
-});
+// Export for Vercel serverless deployment
+module.exports = app;
+
+// Start server only when running locally (not on Vercel)
+if (process.env.VERCEL !== "1") {
+  app.listen(PORT, () => {
+    console.log("App started on port " + PORT);
+    if (useInMemory) {
+      console.log("⚡ Running in IN-MEMORY mode (no MongoDB required)");
+      console.log("   Holdings: " + inMemoryHoldings.length + " items loaded");
+      console.log("   Positions: " + inMemoryPositions.length + " items loaded");
+    } else {
+      mongoose.connect(uri);
+      console.log("DB connected!");
+    }
+  });
+}

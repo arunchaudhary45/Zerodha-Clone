@@ -288,6 +288,50 @@ Make sure the **backend is running first** on port 3002 before opening the dashb
 
 ---
 
+## 🚀 Deployment
+
+This project is configured for easy deployment on **Vercel** (free tier).
+
+### Deploy Backend (API Server) on Vercel
+
+1. Go to [vercel.com](https://vercel.com) and sign in with GitHub
+2. Click **"Add New Project"**
+3. Import the `Zerodha-Clone` repository
+4. Set **Root Directory** to `backend`
+5. Vercel will auto-detect the `vercel.json` configuration
+6. Click **Deploy**
+7. Copy your backend URL (e.g., `https://zerodha-backend-xyz.vercel.app`)
+
+### Deploy Frontend (Landing Page) on Vercel
+
+1. Click **"Add New Project"** again
+2. Import the same `Zerodha-Clone` repository
+3. Set **Root Directory** to `frontend`
+4. Click **Deploy**
+
+### Deploy Dashboard on Vercel
+
+1. Click **"Add New Project"** again
+2. Import the same `Zerodha-Clone` repository
+3. Set **Root Directory** to `dashboard`
+4. Add an **Environment Variable**:
+   - Key: `REACT_APP_API_URL`
+   - Value: Your deployed backend URL (e.g., `https://zerodha-backend-xyz.vercel.app`)
+5. Click **Deploy**
+
+### Alternative: Deploy Backend on Render
+
+1. Go to [render.com](https://render.com) and sign in with GitHub
+2. Click **"New" → "Web Service"**
+3. Connect the `Zerodha-Clone` repository
+4. Set **Root Directory** to `backend`
+5. Set **Build Command** to `npm install`
+6. Set **Start Command** to `node index.js`
+7. Click **Create Web Service**
+
+---
+
+
 ## 🤝 Contributing
 
 1. Fork the repository
