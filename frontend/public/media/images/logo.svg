@@ -1,5 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="200" height="30" viewBox="0 0 200 30">
-  <text x="0" y="22" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#387ed1">
-    <tspan fill="#e95325">Zero</tspan><tspan fill="#387ed1">dha</tspan>
-  </text>
+  <!-- Zerodha kite logo mark -->
+  <polygon points="0,0 12,15 0,30 8,30 20,15 8,0" fill="#e95325"/>
+  <polygon points="6,0 18,15 6,30 14,30 26,15 14,0" fill="#e95325" opacity="0.6"/>
+  <!-- ZERODHA text -->
+  <text x="34" y="22" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" fill="#333" letter-spacing="1">ZERODHA</text>
 </svg>
